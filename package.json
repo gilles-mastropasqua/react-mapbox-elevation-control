@@ -1,0 +1,38 @@
+{
+  "name": "react-mapbox-elevation-control",
+  "version": "1.0.0",
+  "description": "A Mapbox control to display elevation on click",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "map",
+    "mapbox control",
+    "reactjs",
+    "mapbox",
+    "minimap",
+    "elevation control"
+  ],
+  "author": "Gilles Mastropasqua",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gilles-mastropasqua/react-mapbox-elevation-control.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gilles-mastropasqua/react-mapbox-elevation-control/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/mapbox-gl": "^2.7.19"
+  },
+  "peerDependencies": {
+    "mapbox-gl": "^3.7.0"
+  }
+}
