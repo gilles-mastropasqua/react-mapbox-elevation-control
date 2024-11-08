@@ -1,6 +1,6 @@
 {
   "name": "react-mapbox-elevation-control",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "description": "A Mapbox control to display elevation on click",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cpx \"src/*.css\" dist/",
     "prepare": "npm run build"
   },
   "keywords": [
@@ -27,10 +27,12 @@
   "bugs": {
     "url": "https://github.com/gilles-mastropasqua/react-mapbox-elevation-control/issues"
   },
+  "homepage": "https://react-mapbox-elevation-control-demo.vercel.app",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.0.0",
-    "@types/mapbox-gl": "^2.7.19"
+    "@types/mapbox-gl": "^2.7.19",
+    "cpx": "^1.5.0",
+    "typescript": "^4.0.0"
   },
   "peerDependencies": {
     "mapbox-gl": "^3.7.0"

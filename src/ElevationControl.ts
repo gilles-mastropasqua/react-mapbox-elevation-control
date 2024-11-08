@@ -1,5 +1,4 @@
 import mapboxgl from 'mapbox-gl';
-import './styles.css';
 
 class ElevationControl implements mapboxgl.IControl {
     private map: mapboxgl.Map | null = null;

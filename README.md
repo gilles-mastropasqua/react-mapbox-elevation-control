@@ -4,6 +4,12 @@ A Mapbox GL JS control that allows users to measure the elevation of a point on 
 
 ![Minimap exemple](https://3w-creation.net/demo-react-mapbox-elevation-control.png)
 
+## Live Demo
+
+You can check out the live version of this package here:
+
+[React Mapbox Elevation Control - Live Demo](https://react-mapbox-elevation-control-demo.vercel.app)
+
 ## Installation
 
 Install the package via npm:
